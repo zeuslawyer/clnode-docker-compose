@@ -1,3 +1,7 @@
-*.env
+# Secrets and Configs.  Please name file expressly as this repo as public.env that is OK for checkking in to source control.
+.env 
+secret
+
+# Misc
 *.log
 pg-data
