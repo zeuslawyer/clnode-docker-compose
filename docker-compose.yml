@@ -19,4 +19,4 @@ services:
       - "6688:6688"
     volumes:
       - /Users/zubinpratap/.chainlink-goerli/chainlink-data:/chainlink/
-    command: node start --password /chainlink-data/password.txt --api /chainlink-data/apicredentials.txt
+    command: node start --password /chainlink-data/password --api /chainlink-data/apicredentials
